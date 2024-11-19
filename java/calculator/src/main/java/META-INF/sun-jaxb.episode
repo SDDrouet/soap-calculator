@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.11.18 a las 07:25:10 PM ECT 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="org.example.calculator"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:Add">
+                  
+            <class ref="org.example.calculator.Add"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AddResponse">
+                  
+            <class ref="org.example.calculator.AddResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Subtract">
+                  
+            <class ref="org.example.calculator.Subtract"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SubtractResponse">
+                  
+            <class ref="org.example.calculator.SubtractResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Multiply">
+                  
+            <class ref="org.example.calculator.Multiply"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:MultiplyResponse">
+                  
+            <class ref="org.example.calculator.MultiplyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Divide">
+                  
+            <class ref="org.example.calculator.Divide"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DivideResponse">
+                  
+            <class ref="org.example.calculator.DivideResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
